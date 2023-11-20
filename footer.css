@@ -1,0 +1,38 @@
+footer {
+    background-color: #1F5014;
+}
+
+.back-to-top {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+    text-align: left;
+    position: fixed;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.right-credits{
+    text-align: right;
+    color: white;
+    font-size: 14px;
+}
+
+.right-credits i{
+    margin-bottom: 20px;
+}
+
+a:hover i.fa-linkedin {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}

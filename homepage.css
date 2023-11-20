@@ -11,35 +11,46 @@ body {
     min-height: 100vh;
 }
 
-footer {
-    background-color: #1F5014;
-}
-
-.back-to-top {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    transition: all 0.3s;
-    text-align: left;
-}
-
-.back-to-top:hover {
-    text-decoration: underline;
-}
-
-.footer-container {
+.welcome-page{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.welcome-page h2{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.home-img {
+    width: 378px;
+    transition: all 0.3s;
+}
+
+.home-img:hover {
+    transform: scale(1.1);
+}
+
+.welcome-left{
+   
+}
+
+.welcome-left button {
+    font-family: 'Rubik', sans-serif;
+    background-color: #cbddd1;
+    margin-top: 100px;
+    border-radius: 20px;
     padding: 10px;
-    padding-top: 50px;
+    border-color: transparent;
+    font-size: 18px;
+    transition: all 0.3s;
 }
 
-.right-credits{
-    text-align: right;
+.welcome-left button:hover {
+    transform: scale(1.1);
+    background-color: #1F5014;
     color: white;
-    font-size: 14px;
 }
 
-.right-credits a{
-    margin-bottom: 20px;
-}
