@@ -1,9 +1,13 @@
 .about_dropdown ul{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 2%;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 8%;
+}
+
+nav h1 {
+    font-family: 'Space Mono', monospace;
 }
 
 .about_dropdown {
@@ -55,7 +59,7 @@ h1{
 }
 
 nav{
-    padding: 30px;
+    padding: 2%;
     display: flex;
     justify-content: space-between;
 }

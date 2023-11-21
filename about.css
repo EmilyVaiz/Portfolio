@@ -4,10 +4,53 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Rubik', sans-serif;
     min-height: 100vh;
 }
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.about-content p{
+    padding: 10%;
+    font-size: 1.5vw;
+    justify-content: center;
+    text-align: right;
+}
+
+.about-content strong:hover {
+    transition: transform 0.3s ease; 
+    transform: scale(1.2);
+}
+
+#About h2{
+    margin-top: 8%;
+    padding: 1%;
+    margin-right: 10%;
+    font-size: 3vw;
+    border: 5px solid #1F5014;
+    border-left: none;
+    display: inline-block;
+}
+
+#Education h2 {
+    padding: 1%;
+    padding-right: 5%;
+    font-size: 3vw;
+    border: 5px solid #1F5014;
+    border-right: none;
+    display: inline-block;
+}
+
+#Education{
+    text-align: right;
+}
+
+
 

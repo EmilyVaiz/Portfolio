@@ -3,23 +3,32 @@ footer {
 }
 
 .back-to-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1vw;
     transition: all 0.3s;
     text-align: left;
-    position: fixed;
+    white-space: nowrap;
 }
 
 .back-to-top:hover {
     text-decoration: underline;
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}
+
+.left-footer {
+    position: relative;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    padding-top: 50px;
+    padding: 3%;
+    padding-top: 5%;
 }
 
 .right-credits{
@@ -29,10 +38,18 @@ footer {
 }
 
 .right-credits i{
-    margin-bottom: 20px;
+    margin-bottom: 15%;
 }
 
 a:hover i.fa-linkedin {
     transform: scale(1.2); 
     transition: transform 0.3s ease; 
+}
+
+a:hover i.fa-envelope {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}
+
+.icons {
 }

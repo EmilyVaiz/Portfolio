@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,38 +14,46 @@ body {
 
 .welcome-page{
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    padding: 10%;
     align-items: center;
     font-family: 'Rubik', sans-serif;
 }
 
-.welcome-page h2{
-    font-size: xx-large;
+.welcome-left h2{
+    font-size: 3vw;
     font-weight: 400;
 }
 
-.home-img {
-    width: 378px;
+.welcome-right img {
+    width: 100%; 
+    max-width: 70%;
     transition: all 0.3s;
+    float: right;
 }
 
-.home-img:hover {
+.welcome-right img:hover {
     transform: scale(1.1);
+    
 }
 
 .welcome-left{
-   
+   display: inline-block;
+   flex: 1;
+}
+
+.welcome-right {
+    flex-shrink: 0;
+    margin-left: auto;
 }
 
 .welcome-left button {
     font-family: 'Rubik', sans-serif;
     background-color: #cbddd1;
-    margin-top: 100px;
+    margin-top: 20%;
     border-radius: 20px;
-    padding: 10px;
+    padding: 7%;
     border-color: transparent;
-    font-size: 18px;
+    font-size: 1vw;
     transition: all 0.3s;
 }
 
