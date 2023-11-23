@@ -48,6 +48,37 @@ h2{
     display: inline-block;
 }
 
+#Skills h2{
+    padding: 1%;
+    margin-right: 10%;
+    font-size: 3vw;
+    border: 5px solid #1F5014;
+    border-left: none;
+    display: inline-block;
+}
+
+#Certifications h2 {
+    padding: 1%;
+    padding-right: 5%;
+    font-size: 3vw;
+    border: 5px solid #1F5014;
+    border-right: none;
+    display: inline-block;
+}
+
+#Certifications{
+    text-align: right;
+}
+
+#ResumeDownload h2{
+    padding: 1%;
+    margin-right: 10%;
+    font-size: 3vw;
+    border: 5px solid #1F5014;
+    border-left: none;
+    display: inline-block;
+}
+
 #Education{
     text-align: right;
 }
@@ -242,6 +273,8 @@ h2{
     }
     
 }
+
+
 
 
 
