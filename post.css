@@ -20,6 +20,11 @@ body {
     flex: 50%;
 }
 
+body h2:first-child {
+    font-family: 'Rubik', sans-serif;
+    font-size: xx-large;
+}
+
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;

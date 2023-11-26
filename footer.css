@@ -55,3 +55,7 @@ a:hover i.fa-square-github {
     transform: scale(1.2); 
     transition: transform 0.3s ease; 
 }
+
+.right-credits p:first-child {
+    margin-bottom: 5%;
+}
