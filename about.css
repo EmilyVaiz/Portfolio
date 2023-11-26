@@ -245,7 +245,7 @@ section h2{
 
 .skills-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 9%;
 }
 
@@ -259,6 +259,7 @@ section h2{
 }
 
 .skill-type {
+    margin: 2%;
     background-color: #cbddd1;
     border-radius: 10px;
     display: inline-block;
@@ -276,6 +277,76 @@ section h2{
 .skill-type ul li {
     padding-left: 10%;
     padding-top: 5%;
+}
+
+.certification-content {
+    display: block;
+}
+
+.certification-line {
+    display: flex;
+    margin: 3%;
+}
+
+.certification-box {
+    flex: 1;
+    justify-content: space-between;
+    background-color: #cbddd1;
+    margin-right: 2%;
+    box-shadow: 4px 8px 8px rgba(0, 1, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.certification-box a {
+    color: #1F5014;
+    font-weight: 800;
+    padding: 2%;
+    border: 2px solid white;
+    transition: all 0.3s;
+}
+
+.certification-box a:hover {
+    transform: scale(1.1);
+    border: 2px solid #1F5014;
+}
+
+.first-line, 
+.second-line {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    font-family: 'Space Mono', monospace;
+}
+
+.first-line p:first-child {
+    font-style: italic;
+}
+
+.first-line p:last-child {
+    font-weight: 900;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.certification-box:last-child {
+    margin-right: 0;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume-container object{
+    width: 60%;
+    height: 80vh;
 }
 
 @media screen and (max-width: 600px){
@@ -308,6 +379,7 @@ section h2{
     }
     
 }
+
 
 
 
