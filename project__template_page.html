@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="hansel.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
 </head>
@@ -37,28 +37,50 @@
 <body>
     <!--text region-->
     <div class="post-header">
-        <h2>Project title</h2>
-        <small>subtitle on what it is</small>
+        <h2>Hansel and Gretel</h2>
+        <small>an Interactive Children's Book Experience</small>
     </div>
     <div class="row">
         <div class="column">
-            <h3>Purpose</h3>
-            <p>This project was a part of my composing digital media class final. I decided to create a website that is a space for cultural designs to be displayed in a manner that promotes their growth and awareness. My main focus with this project was that I wanted to open a dialogue about the ethics of high fashion and their usage of traditional patterns and textiles for their own business growth. Often, there is little to no reference to the actual inspiration and credit behind the cultural roots of the design or concept. </p>
-            <div class="img-container">
-                <img src="floretteIMG/processIMG.PNG" alt="Image from Florette website of clothing designs from traditional asian textile patterns">
+            <h4>Project Walkthrough</h4>
+            <div class="video-container">
+                <iframe
+                src="https://www.youtube.com/embed/Xc0xlN9ecPo"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                ></iframe>
             </div>
+            <h3>Purpose</h3>
+            <p>As part of my Digital Narrative and Interactive Design class, our team embarked on bringing a scene from a children's storybook to life. Collaborating with two other team members, we collectively planned, constructed, and implemented the project. The central goal was to identify that crucial 'page-turn' moment in the story, a pivotal element in narrative structure.
+
+            For our project, we chose the scene from Hansel and Gretel where the witch tosses the children into the oven. Our task was to animate this scene and incorporate two interactions allowing users to influence the outcome of the narrative. Our primary focus was on creating a user experience that would be accessible and comprehensible to anyone interacting with the exhibit.
+            
+            With these considerations in mind, we started the construction process.</p>
+            <div class="img-container-vertical">
+                <img src="hanselGretelIMG/wires.jpg" alt="image of three wires that have been twisted together on one end to become one">
+            </div>
+            <hr>
             <h3>Medium</h3>
-            <p>This was one of the first digital projects I worked on, and it was a daunting task to decide how and which platform I was going to implement this idea. I decided to choose Wix and begin the process of templating my content before I went on the site builder. In addition, to build my content I used procreate to draw up the designs and document the artistic process as that would eventually go on the page as well. Editing the photos was minimal but all edits were done on Photoshop to create a similar theme among the timelapses and the outfit photos. </p>
+            <p>The main interactive component was coded using the Arduino UNO, and I was responsible for both the code development and assembling the accompanying hardware. The process involved iterative assembly and disassembly of components to determine the most efficient implementation. The primary hardware components used in the project included two servo motors, two LED lights, a push button, and a hall sensor. Both the hall sensor and push button played integral roles in the interactivity of the design. </p>
+
 
         </div>
         <div class="column">
-            <h3>Learning Curves</h3>
-            <p>The main learning curve with this project was understanding how to use Wix. While I was able to create a working website, there were many functionalities that I felt were not accessible to use as someone who did not have web development knowledge at the time. I wasn't able to have as much creative liberty as I wanted to, so that was something I had to work around. This project made me realize the importance of a solid web design layout and it pushed me to learn more about the programming languages in web development</p>
-            <div class="img-container">
-                <img src="floretteIMG/processIMG.PNG" alt="Image from Florette website of clothing designs from traditional asian textile patterns">
+            <p> Constructing the physical layout of the hardware presented challenges, particularly concerning the need for components to function beyond the confines of the given breadboard. The size of our house exceeded the surface area of the board, requiring creative solutions to extend the functionality of the components. Additionally, positioning the push button posed a unique challenge as it was crucial to the interactive process. We aimed for visibility and standalone functionality for user understanding, leading to a struggle in finding a suitable placement that made sense for users while still being connected to the breadboard. This process involved careful maneuvering and compromise, especially considering that the available wires were not long enough for our initial placement plan.</p>
+            <p>For the LEDs, our goal was to make them removable from the breadboard and flexible enough to be positioned inside the oven. The plan involved incorporating three LEDs—two red and one yellow—arranged in a row and situated on the floorboard away from the breadboard. To achieve this setup, we needed to create a wire that would split into three branches. This would result in a linear circuit, and despite the potential risk due to the limited length of the LEDs, we deemed it worthwhile for the desired lighting effect.</p>
+
+            <div class="img-container-horizontal">
+                <img src="hanselGretelIMG/hardwareLayout.jpg" alt="Arduino UNO board connected to the breadboard set up with LEDs, Flex sensors, and Servo motors attached to the set up">
+                <img src="hanselGretelIMG/construction.jpg" alt="Cardboard set up of the Hansel and Gretel Scene with the floorboard exposed to show the underlying hardware that accompanies the design">
             </div>
+            
+            <h3>Learning Curves</h3>
+            <p>One of the significant learning challenges we faced was troubleshooting the physical components alongside the working code. There were instances where the program was syntactically correct, but the hardware malfunctioned in some way, leading to confusion. Additionally, comprehending the actual implementation of the hardware differed from merely having the parts function independently. As we integrated the hardware into our designed space, we had to make adjustments to ensure that it continued to function as intended.</p>
+            <hr>
             <h3>Additional Resources</h3>
-            <a href="https://emv386.wixsite.com/florette" target="_blank" aria-label="Florette website link" class="website-link">Website Link</a>
+
+            <a href="https://drive.google.com/file/d/1-W5-v30cKUHu4aoon-iEKuZWLjhmUEOc/view?usp=sharing" target="_blank" aria-label="Arduino Source Code" class="website-link">Arduino Source Code</a>
         </div>
     </div>
 
