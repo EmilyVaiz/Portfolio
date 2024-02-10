@@ -28,7 +28,7 @@ section h2{
     padding: 10%;
     font-size: 1.5vw;
     justify-content: center;
-    text-align: right;
+    text-align: left;
 }
 
 .about-content strong:hover {
